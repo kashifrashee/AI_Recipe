@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "769844011307",
+    "project_id": "ai-recipe-de17f",
+    "storage_bucket": "ai-recipe-de17f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769844011307:android:de57b4c44a33fe2801a56e",
+        "android_client_info": {
+          "package_name": "com.example.airecipe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA7qUU1ScuL21l7j8EIeUDA2k8_d8INW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
