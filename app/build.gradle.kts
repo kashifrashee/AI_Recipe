@@ -11,11 +11,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.googlemaps"
+    namespace = "com.example.airecipe"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.googlemaps"
+        applicationId = "com.example.airecipe"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -64,9 +64,29 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    // Firebase BoM (Bill of Materials) to manage Firebase dependencies
     implementation(platform("com.google.firebase:firebase-bom:33.11.0"))
     implementation("com.google.firebase:firebase-analytics")
 
+    // Dagger Hilt for dependency injection
     implementation("com.google.dagger:hilt-android:2.51.1")
     kapt("com.google.dagger:hilt-android-compiler:2.51.1")
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+
+    // Google Play Services for authentication
+    implementation("com.google.android.gms:play-services-auth:21.3.0")
+
+    // AndroidX Lifecycle components for Compose
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
+
+    // compose Navigation
+    implementation("androidx.navigation:navigation-compose:2.8.9")
+    implementation("androidx.navigation:navigation-runtime-ktx:2.8.9")
+
+    // Splash screen Dependency
+    implementation("androidx.core:core-splashscreen:1.0.1")
+
+    // Coil library for image loading in Compose
+    implementation("io.coil-kt:coil-compose:2.6.0")
 }

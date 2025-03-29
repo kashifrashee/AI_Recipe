@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.airecipe" />
+                  <option name="mobileSdkAppId" value="1:769844011307:android:de57b4c44a33fe2801a56e" />
+                  <option name="projectId" value="ai-recipe-de17f" />
+                  <option name="projectNumber" value="769844011307" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

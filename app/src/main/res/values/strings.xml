@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">AI Recipes</string>
+    <string name="web_client_id">769844011307-tf0qfq1fpe1nfdv71a3lcmk8m3tmiftd.apps.googleusercontent.com</string>
+
+    <string name="terms_conditions">
+    <![CDATA[
+    **Terms & Conditions for AIRecipe App**
+
+    **1. Acceptance of Terms**
+    By using the AIRecipe app, you agree to comply with and be bound by these Terms & Conditions. If you do not agree, please do not use the app.
+
+    **2. Use of the App**
+    - The app provides food recipes for informational and personal use only.
+    - Users are responsible for ensuring the ingredients used are suitable for their dietary needs.
+    - The app is not a substitute for professional nutritional or health advice.
+
+    **3. User Responsibilities**
+    - The app is intended for lawful use only; any misuse may result in access restrictions.
+
+    **4. Recipe Accuracy**
+    - While we strive for accuracy, we do not guarantee that all recipes are error-free.
+    - Users should verify measurements and cooking times before following any recipe.
+
+    **5. Limitation of Liability**
+    - AIRecipe is not responsible for any health-related issues, allergic reactions, or cooking mishaps that may arise from using the app.
+    - The app and its content are provided "as is" without warranties of any kind.
+
+    **6. Changes to Terms**
+    - We reserve the right to modify these terms at any time. Continued use of the app after changes indicates acceptance.
+
+    **7. Contact Us**
+    If you have any questions about these Terms & Conditions, please reach out through the app’s support section.
+    ]]>
+</string>
+
 </resources>
