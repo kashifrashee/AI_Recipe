@@ -32,5 +32,11 @@
     If you have any questions about these Terms & Conditions, please reach out through the app’s support section.
     ]]>
 </string>
+    <string name="home">Home</string>
+    <string name="home_content_description">home</string>
+    <string name="favorites">Favourite</string>
+    <string name="profile">Profile</string>
+    <string name="recipes">Featured Recipes</string>
+    <string name="recipe">Recipes</string>
 
 </resources>

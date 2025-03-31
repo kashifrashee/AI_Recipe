@@ -12,15 +12,33 @@
           "package_name": "com.example.airecipe"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "769844011307-tf0qfq1fpe1nfdv71a3lcmk8m3tmiftd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.airecipe",
+            "certificate_hash": "38469105ebefab613595195ca51fdc73d9125804"
+          }
+        },
+        {
+          "client_id": "769844011307-371bn8539b7ks61lm7ed4jpekfno3kk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyDA7qUU1ScuL21l7j8EIeUDA2k8_d8INW4"
+          "current_key": "AIzaSyCzX7G3C0v8oCc2Iw6ktI5N7lftr86CrM8"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769844011307-371bn8539b7ks61lm7ed4jpekfno3kk7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

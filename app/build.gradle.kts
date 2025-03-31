@@ -56,6 +56,7 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.firebase.auth.ktx)
+    implementation(libs.firebase.firestore.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -89,4 +90,14 @@ dependencies {
 
     // Coil library for image loading in Compose
     implementation("io.coil-kt:coil-compose:2.6.0")
+
+    // NavigationSuiteScaffold dependency for navigation rail and bar
+    implementation("androidx.compose.material3:material3-adaptive-navigation-suite")
+
+    // Retrofit Dependency
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    implementation("com.google.accompanist:accompanist-swiperefresh:0.28.0")
+
 }

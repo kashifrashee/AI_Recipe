@@ -14,3 +14,6 @@ val Pink40 = Color(0xFF7D5260)
 
 // My Colors 00B140
 val ButtonColor = Color(0xFF00C853)
+val ForestGreen = Color(0xFF006400) // Darker Green
+val DarkGrayGreen = Color(0xFF2E7D32)
+val StrongGreen = Color(0xFF009624) // Darker Green
